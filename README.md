@@ -13,7 +13,7 @@ This is a **Next.js** landing page for the **JC Web API** project, built with **
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/jc-web-landing.git
+   git clone https://github.com/jc9mm/jc-web-landing.git
    cd jc-web-landing
    ```
 
