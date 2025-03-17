@@ -55,4 +55,4 @@ jobs:
           app-name: 'websitektka7qginofjo'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C14BEF71BD9F444885054EA5C97F0B81 }}
