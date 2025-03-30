@@ -5,7 +5,7 @@ export default function ApiDocs() {
   const [status, setStatus] = useState("Checking...");
 
   useEffect(() => {
-    axios.get("https://api.jorgecastillo.net/health")
+    axios.get("https://your-api-url.com/api/health")
       .then(response => {
         setStatus(response.data.status || "Online");
       })
