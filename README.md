@@ -22,7 +22,13 @@ This is a **Next.js** landing page for the **JC Web API** project, built with **
    npm install
    ```
 
-3. Run the development server:
+3. Install Node.js 20.x:
+   ```sh
+   nvm install 20
+   nvm use 20
+   ```
+
+4. Run the development server:
    ```sh
    npm run dev
    ```
@@ -55,6 +61,20 @@ This is a **Next.js** landing page for the **JC Web API** project, built with **
 2. Deploy:
    ```sh
    netlify deploy
+   ```
+
+### **Azure Web App**
+1. Install Azure CLI:
+   ```sh
+   npm i -g azure-cli
+   ```
+2. Login to Azure:
+   ```sh
+   az login
+   ```
+3. Deploy:
+   ```sh
+   az webapp up --name <your-app-name> --resource-group <your-resource-group> --runtime "NODE|20-lts"
    ```
 
 ## 📄 License
